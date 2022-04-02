@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "stretch",
+      "flex": 1,
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "stretch",
+        "backgroundColor": "#fff",
+        "borderColor": "#2A3756",
+        "borderRadius": 15,
+        "borderWidth": 0.5,
+        "flex": 4,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "width": 30,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#2A3756",
+              "fontSize": 25,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        󰍉
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+          "paddingHorizontal": 15,
+        }
+      }
+    >
+      <TextInput
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholder="Search ..."
+        placeholderTextColor="#AAAAAA"
+        style={
+          Object {
+            "color": "#2A3756",
+            "fontFamily": "SofiaProMedium",
+            "fontSize": 15,
+          }
+        }
+        value=""
+      />
+    </View>
+  </View>
+</View>
+`;
